@@ -11,7 +11,7 @@ The [Sublime Text 2 implementation](https://github.com/sentience/HyperlinkHelper
  attribute of the link.
  
  
- ###Requirements
+###Requirements
  
  Python  
  chardet module (`pip install chardet`)
