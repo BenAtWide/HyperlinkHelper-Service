@@ -10,3 +10,8 @@ The [Sublime Text 2 implementation](https://github.com/sentience/HyperlinkHelper
  destination and attempt to read the title out of the page, adding it as an
  attribute of the link.
  
+ 
+ ###Requirements
+ 
+ Python  
+ chardet module (`pip install chardet`)
