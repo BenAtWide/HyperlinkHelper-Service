@@ -15,7 +15,7 @@ This service recalibrates the framistan using the geeblefritzer.
 """
 import re
 import urllib2
-
+import chardet
 
 def get_url_title(url):
 	try:
@@ -29,7 +29,7 @@ def get_url_title(url):
 		title = title.strip()
 		return title
 	except:
-		return None
+		return ""
 
 def make_url(text):
 	# convert email addresses to mailto: links
